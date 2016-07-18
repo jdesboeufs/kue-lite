@@ -1,5 +1,6 @@
 var kue = require('../'),
     _ = require('lodash'),
+    expect = require('expect.js'),
     queue = kue.createQueue();
 
 describe('Test Mode', function() {
